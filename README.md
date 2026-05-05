@@ -13,12 +13,7 @@ This project is a production-oriented reference implementation of an agentic bac
 - Async inference pipeline: end-to-end async FastAPI, Redis, worker, and retry flow.
 - Retry and failure handling: exponential backoff retries, persisted step states, and terminal failure events.
 - Manual batching logic: implemented in `app/services/llm.py`.
-- Mandatory post-mortem: included below in the README.
-
-Two deliverables still require external publishing outside this local workspace:
-
-- GitHub repository link
-- Public 3-5 minute explanation video link
+  
 
 ## Architecture
 
