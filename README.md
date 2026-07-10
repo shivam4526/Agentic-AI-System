@@ -2,8 +2,6 @@
 
 This project is a production-oriented reference implementation of an agentic backend that accepts natural-language tasks, decomposes them into structured steps, dispatches work asynchronously through Redis, and streams progress back to clients in real time.
 
-## Assignment Coverage Checklist
-
 - Accept a complex user task: implemented via `POST /api/v1/tasks`.
 - Break it into multiple steps: implemented by the planner agent with explicit structured step definitions.
 - Assign steps to specialized agents: retriever, analyzer, and writer are separate modules with clear ownership.
